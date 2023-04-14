@@ -31,7 +31,7 @@ nav {
 
 .headers {
     display: flex;
-    align-items: flex-start;
+    justify-content: left;
     margin-top: 25px;
     width: 230px;
     color: white;
@@ -70,6 +70,11 @@ footer {
     font-weight: 700;
     font-size: large;
     padding: 10px 10px 10px 10px;
+}
+
+.github {
+    display:flex;
+    align-self: center;
 }
 
  @media screen and (max-width: 992px) {
